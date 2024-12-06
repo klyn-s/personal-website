@@ -1,23 +1,103 @@
 <!DOCTYPE html>
-<style>
-  /* netnet default bg */
-  body {
-    margin: 0;
-    background-image: linear-gradient(#515199a8 2px, transparent 1px),
-      linear-gradient(90deg, #515199a8 2px, transparent 1px);
-    background-size: 50px 50px;
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-  }
+<html lang="eng-ca">
+  <head>
+    <meta charset="utc-8">
+    <title>project page</title>
+    <style>
+      
+/* Navigation */
+#nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 80px;
+}
+      
+#nav li {
+  display: inline;
+}
+      
+#nav a {
+  color: #282828;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+}
+      
+#nav a:hover {
+  text-decoration: underline;
+}
 
-  body::before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient(0deg, #c76ebca8, #515199a8);
-  }
-</style>
+/* Logo */
+#logo {
+  position: absolute;
+  left: 50%;
+  top: 28px;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #282828;
+  font-size: 28px;
+  font-family: 'Cormorant Infant', serif;
+  font-style: italic;
+  font-weight: 700;
+}
+      
+    </style>
+  </head>
+  
+  <body>
+    <div class="container">
+      <div id="header">
+        <h1>welcome to my</h1>
+        <h2>portfolio</h2>
+          <div id="nav">
+            <ul>
+            <li><a href="">home</a></li>
+            <li><a href="">about me</a></li>
+            <li><a href="">project</a></li>
+            <li><a href="">contact me</a></li>
+            </ul>
+          </div>
+          <div id="logo">kaitlyn's</div>
+      </div>
+           
+
+      <div class="section">
+        <div id="title">
+          <h3>→ so*do*i magazine</h3>
+        </div>
+        <div class="description">
+        <p> a magazine layout design showcasing my 2023 design projects, with each page unfolding a distinct concept inspired by the essence of each piece of work</p>
+        <img src="magazine img.png" alt="sodoi magazine cover">
+        </div>
+        
+        
+
+      <div class="section">
+        <div class="section-border"></div>
+        <h3>→ bookstore website redesign</h3>
+        <div class="description">
+          <p>a redesign of Janus Books website that centers around content organization, usability, and the bookstore’s vintage aesthetics.</p>
+        </div>
+        <img src="website img.png" alt="janus books website redesign">
+      </div>
+
+        <div class="section">
+        <div class="section-border"></div>
+        <h3>→ study treadz</h3>
+        <div class="description">
+          <p> a peer-to-peer study app that encourages students to post and reply in forum threads to find and connect with other nearby students who have similar studying goals and motivations.</p>
+        </div>
+        <img src="website img.png" alt="janus books website redesign">
+      </div>
+        
     
+      <div class="footer">
+        <div>@kaitlyn’s portfolio</div>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
