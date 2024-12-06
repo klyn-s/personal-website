@@ -94,38 +94,59 @@
       }
       
       /* Projects */
-.projects {
-  margin: 60px 0;
+#project1 {
+      padding: 20px 0;
+      display: inline-block;
+      position: relative;
+      left: 80%;
+      float: left;
+      width: 40%;
+      margin-top: 20px;
 }
-      .year {
-  font-size: 20px;
+      
+#project2 {
+      padding: 20px 0;
+      display: inline-block;
+      position: relative;
+      left: 80%;
+      float: left;
+      width: 40%;
+      margin-top: 300px;
+}
+      
+#project3 {
+      padding: 20px 0;
+      display: inline-block;
+      position: relative;
+      left: 80%;
+      float: left;
+      width: 40%;
+      margin-top: 300px;
+      }
+
+       h3 {
+  font-family: 'Cormorant Infant', serif;
+  font-size: 30px;
   font-style: italic;
   margin-bottom: 10px;
+  font-weight: 600;
+}
+  
+      h4 {
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 10px;
+  font-weight: 200;
 }
   hr {
   border: 0;
   border-top: 1px solid #aaa;
   margin: 20px 0;
 }    
-  .project-item {
-  display: inline-block;
-  width: 40%;
-  float: left;
-      padding: 30px 40px;
-  margin-top: 20px;
-}
+  
+
       
-  .project-text {
-  max-width: 500px;
-}
-      
-.project-text h3 {
-  font-size: 20px;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-      
-  .project-image img {
+  img {
   max-height: 400px;
   float: left;
   padding: 10px;
@@ -133,8 +154,16 @@
   left: 80%;
 }
       
-      
-      
+/* Footer */
+.footer {
+  text-align: center;
+  margin-top: 40px;
+} 
+
+.footer p {
+  font-size: 14px;
+  color: #aaa;
+}
       
     </style>
   </head>
@@ -161,50 +190,46 @@
       <h1>welcome to my</h1>
       <h2>portfolio</h2>
 
-
-      <div class="projects">
-        <div class="year">( 2 0 2 3 )</div>
+<!-- Project 1 -->
+      <div id="project1">
+        <div class="details">
         <hr>
-        <div class="project-item">
-          <div class="project-text">
+          <h4>( 2 0 2 3 )</h4>
             <h3>→ so*do*i magazine</h3>
             <p>
               A magazine layout design showcasing my 2023 design projects, with each page unfolding a distinct concept inspired by the essence of each piece of work.
             </p>
           </div>
-          <div class="project-image">
             <img src="magazine img.png" alt="sodoi magazine cover">
             <hr>
-          </div>
         </div>
 
 
-
-        <div class="year">( 2 0 2 4 )</div>
+<!-- Project 2 -->
+       <div id="project2">
+        <div class="details">
         <hr>
-        <div class="project-item">
-          <div class="project-text">
+          <h4>( 2 0 2 4 )</h4>
             <h3>→ bookstore website</h3>
             <p>
               A redesign of Janus Books website that centers around content organization, usability, and the bookstore’s vintage aesthetics.
             </p>
           </div>
-          <div class="project-image">
             <img src="website img.png" alt="janus books website redesign">
-          </div>
         </div>
+  
+        <!-- Project 3 -->
 
-        <div class="project-item">
-          <div class="project-text">
+        <div id="project3">
+        <div class="details">
+        <hr>
             <h3>→ study treadz</h3>
             <p>
               A peer-to-peer study app that encourages students to post and reply in forum threads to find and connect with other nearby students who have similar studying goals and motivations.
             </p>
           </div>
-          <div class="project-image">
             <img src="study-treadz.jpg" alt="Study Treadz App">
-          </div>
-        </div>
+      </div>
       </div>
 
 
